@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout</title>
+    <style>
+         
+         main {
+            width: 1200px;
+            height: auto;
+            background-color: #ccc;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 20px;
+         }
+
+         .box:nth-child(odd){background-color: #0bab4b;
+height: 300px;
+         }
+         
+#lft_rgt { display: grid;
+grid-template-columns: repeat(2,1fr);
+
+}
+
+p{font-size: 5vh;
+/* font: size 2em; */
+}
+
+
+
+
+
+         .box:nth-child(even){
+          background-color: #9f4949;
+          height: 300px;
+          }
+
+          @media  screen  and {
+            
+          }
+    </style>
+
+</head>
+
+<body>
+
+  <main>
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+    </main>
+
+<p>Lorem ipsum dolor sit amet.</p>
+
+
+
+
+
+
+
+
+</body>
+</html>
